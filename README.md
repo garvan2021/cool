@@ -12,7 +12,7 @@ I would put anything cool stuff here.
 - [nginx](https://nginx.org/en/docs/)
 
 
-## 2. Let me baidu/google for you.
+## 2. Let me baidu/google it for you.
 - [baidu](https://lmbtfy.cn/)
 - [google](https://letmegooglethat.com/)
 
