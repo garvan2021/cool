@@ -6,10 +6,15 @@ I would put anything cool stuff here.
 - [markdown](https://en.wikipedia.org/wiki/Markdown)
 
 
-## 1. if you want to make a very simple web page?
+## 1. Do you want to make a simple web page?
 
 - [txti](http://txti.es/)
 - [nginx](https://nginx.org/en/docs/)
+
+
+## 2. Let me baidu/google for you.
+[baidu](https://lmbtfy.cn/)
+[google](https://letmegooglethat.com/)
 
 
 ## 2. may you interest
