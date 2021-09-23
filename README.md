@@ -13,8 +13,8 @@ I would put anything cool stuff here.
 
 
 ## 2. Let me baidu/google for you.
-[baidu](https://lmbtfy.cn/)
-[google](https://letmegooglethat.com/)
+- [baidu](https://lmbtfy.cn/)
+- [google](https://letmegooglethat.com/)
 
 
 ## 2. may you interest
