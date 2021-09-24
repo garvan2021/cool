@@ -12,5 +12,11 @@ I would put anything cool stuff here.
 - [baidu](https://lmbtfy.cn/)
 - [google](https://letmegooglethat.com/)
 
+
 ## 3. scrapy
 - [ZenRows](https://www.zenrows.com/documentation)
+
+
+## 4. Do you want to make a functional web page?
+- [flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [react](https://reactjs.org/docs/getting-started.html)
