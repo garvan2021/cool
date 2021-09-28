@@ -23,3 +23,5 @@ I would put anything cool stuff here.
 Why is this the case? Because people have different preferences and requirements and Flask could not meet those if it would force any of this into the core. The majority of web applications will need a template engine in some sort. However not every application needs a SQL database.  
 The idea of Flask is to build a good foundation for all applications. Everything else is up to you or extensions."  
 - [React](https://reactjs.org/docs/getting-started.html)
+- [Full Stack Python](https://www.fullstackpython.com/)  
+
