@@ -28,7 +28,7 @@ The idea of Flask is to build a good foundation for all applications. Everything
 - [Python Developer’s Guide](https://devguide.python.org/)
 
 ## 6. image processing
-[opencv](https://docs.opencv.org/4.x/d9/df8/tutorial_root.html)
+- [opencv](https://docs.opencv.org/4.x/d9/df8/tutorial_root.html)
 
 ## 0. Any useful reference
 - [Full Stack Python](https://www.fullstackpython.com/)  
