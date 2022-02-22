@@ -24,6 +24,12 @@ Why is this the case? Because people have different preferences and requirements
 The idea of Flask is to build a good foundation for all applications. Everything else is up to you or extensions."  
 - [React](https://reactjs.org/docs/getting-started.html)
 
+## 5. Develop your own python
+- [Python Developer’s Guide](https://devguide.python.org/)
+
+## 6. image processing
+[opencv](https://docs.opencv.org/4.x/d9/df8/tutorial_root.html)
+
 ## 0. Any useful reference
 - [Full Stack Python](https://www.fullstackpython.com/)  
 - [MDN](https://developer.mozilla.org/en-US/docs/Learn#whats_new)
