@@ -8,7 +8,7 @@ USER_NAME="garvan2021"
 install_requirements() {
   ## Prerequisite softwares to install other ones
   apt-get update
-  apt-get install -y wget git snap
+  apt-get install -y wget git snap dpkg
 }
 
 init_git() {
@@ -24,12 +24,11 @@ install_vscode() {
 
 install_chrome() {
   ## Install chrome stable using apt-get
-  ## this method is referrence from:https://askubuntu.com/questions/510056/how-to-install-google-chrome
-  wget https://dl-ssl.google.com/linux/linux_signing_key.pub -O /tmp/google.pub
-  gpg --no-default-keyring --keyring /etc/apt/keyrings/google-chrome.gpg --import /tmp/google.pub
-  echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
-  apt-get update
-  apt-get install google-chrome-stable
+  ## this method is referrence from:https://www.wikihow.com/Install-Google-Chrome-Using-Terminal-on-Linux
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  dpkg -i google-chrome-stable_current_amd64.deb
+  apt-get install -f
+  rm -f google-chrome*
 }
 
 main() {
@@ -39,9 +38,10 @@ main() {
 
   install_vscode
   install_chrome
+  echo "Installation finished."
 }
 
-# if [ "$0" == "$BASH_SCRIPT
-
-main
+if [ "$0" == "${BASH_SOURCE[0]}" ]; then
+  main
+fi
 
