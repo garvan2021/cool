@@ -1,3 +1,6 @@
+# Ubuntu
+
+- [Burn ISO](docs/installation/burn_iso.md)
 
 ## Usage
 
