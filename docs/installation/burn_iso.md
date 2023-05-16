@@ -15,14 +15,11 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 Disklabel type: dos
 Disk identifier: 0x405a23c7  
 ...
-2. find the usb drive path and run below command, replace USB_PATH with your own usb path.
+2. burn iso file to usb
 
 ```shell
-export USB_PATH=/dev/sda
-```
-
-#### 2.burn iso file to usb
-
-```shell
-./burn_iso.sh 
+# Burn Ubuntu20.04 Desktop to /dev/sda
+./burn_iso.sh /dev/sda
+# Burn Ubuntu22.04 Server to /dev/sda
+./burn_iso.sh -s -v jammy /dev/sda
 ```
