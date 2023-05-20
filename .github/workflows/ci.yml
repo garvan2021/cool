@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Init Ubuntu environment
-        run: sudo ./init_ubuntu
+        run: sudo ./init_ubuntu.sh
         
