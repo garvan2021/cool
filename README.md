@@ -1,8 +1,22 @@
-## Install [cuda](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=runfile_local):
+# Ubuntu
+
+- [Burn ISO](docs/installation/burn_iso.md)
+
+## Usage
+
+### Install basic Ubuntu software
 
 ```shell
-./cuda_install
+./init_ubuntu.sh
 ```
+
+### Install specific software
+
+```shell
+source ./init_ubuntu.sh
+install_<app>
+```
+<<<<<<< HEAD
 
 # Ubuntu
 
@@ -40,4 +54,7 @@ export USB_PATH=/dev/sda
 ./burn_iso.sh 
 ```
 
+=======
+> replace `<app>` with desired software, like `install_vscode`
+>>>>>>> 29d2f06b8ca22f08984c0f371aebfa91883f5cc8
 
