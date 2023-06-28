@@ -13,5 +13,6 @@ exit_success() {
 }
 
 if [ "$0" == "${BASH_SOURCE[0]}" ]; then
+  cd "$(dirname "$0")" || exit 1
   main "$@"
 fi
